@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Juego de preguntas</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="puntaje">
+                <img src="IMG/Trofeo.png" alt="Trofeo">
+                <span class="puntos" id="puntos">0</span>
+            </div>
+            <div class="jugador">
+                <span class="nombre" id="nombre"> - </span>
+                <img src="IMG/usuario.png" alt="Jugador">
+            </div>
+        </header>
+
+        <!--PANTALLA DEL MENU-->
+        <main class="menu">
+            <h2>Hola <span id="nombre-jugador-menu">Luis</span></h2>
+            <p>Elige una categoría</p>
+
+            <div class="categorias">
+                <div class="categoria" id="general">
+                    <img src="IMG/lampara.png" alt="lampara" class="foto-categoria">
+                    <h1>General</h1>
+                </div>
+
+                <div class="categoria" id="mar">
+                    <img src="IMG/pez.png" alt="pez" class="foto-categoria">
+                    <h1>Mar</h1>
+                </div>
+
+                <div class="categoria" id="aire">
+                    <img src="IMG/pajaro.png" alt="pajaro" class="foto-categoria">
+                    <h1>aire</h1>
+                </div>
+
+                <div class="categoria" id="industrias">
+                    <img src="IMG/dibujos-animados.png" alt="dibujos-animados" class="foto-categoria">
+                    <h1>industrias</h1>
+                </div>
+
+                <div class="categoria" id="clasificacion">
+                    <img src="IMG/firmar.png" alt="firmar" class="foto-categoria">
+                    <h1>Clasificación</h1>
+                </div>
+
+                <div class="categoria" id="Bosques">
+                    <img src="IMG/logo.png" alt="logo" class="foto-categoria">
+                    <h1>Bosques</h1>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="menu.js"></script>
+
+</body>
+</html>

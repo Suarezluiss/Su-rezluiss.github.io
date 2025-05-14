@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de preguntas</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="container">
+        <!-- ENCABEZADO CON PUNTAJE Y NOMBRE -->
+        <header>
+            <div class="puntaje">
+                <img src="IMG/Trofeo.png" alt="Trofeo">
+                <span class="puntos" id="puntos">0</span>
+            </div>
+            <div class="jugador">
+                <span class="nombre" id="nombre"> - </span>
+                <img src="IMG/usuario.png" alt="Jugador">
+            </div>
+        </header>
+
+        <!-- SECCIÓN DEL JUEGO -->
+        <main class="juego">
+            <!-- Número de pregunta -->
+            <div class="contador-pregunta">
+                <span class="num-pregunta" id="num-pregunta">1</span>
+                / <span>5</span>
+            </div>
+
+            <!-- Texto de la pregunta -->
+            <p class="pregunta" id="txt-pregunta">
+                ¿Texto de la primera pregunta?
+            </p>
+
+            <!-- Opciones de respuesta -->
+            <div class="opciones" id="opciones">
+                <button id="A" class="opcion"></button>
+                <button id="B" class="opcion"></button>
+                <button id="C" class="opcion"></button>
+                <button id="D" class="opcion"></button>
+            </div>
+
+            <!-- Botón para avanzar -->
+            <button class="btn" id="siguiente">Siguiente</button>
+        </main>
+    </div>
+
+    <!-- Script del juego -->
+    <script src="juego.js"></script>
+</body>
+</html>

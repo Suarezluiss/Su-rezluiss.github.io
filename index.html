@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Juego de preguntas</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="puntaje">
+                <img src="IMG/Trofeo.png" alt="Trofeo">
+                <span class="puntos" id="puntos">0</span>
+            </div>
+            <div class="jugador">
+                <span class="nombre"> - </span>
+                <img src="IMG/usuario.png" alt="Jugador">
+            </div>
+        </header>
+
+        <!--PANTALLA DE INICIO-->
+
+        <main class="inicio">
+            <h2>Bienvenidos</h2>
+            <p>Ingresa tu nombre para jugar</p>
+            <input type="text" id="nombre" placeholder="Tu nombre">
+            <button class="btn" id="comenzar">Comenzar</button>
+        </main>
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
